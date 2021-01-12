@@ -1,0 +1,16 @@
+
+server:
+  port: 2001
+
+eureka:
+  server:
+    enable-self-preservation: true
+    peer-node-read-timeout-ms: 1000
+  instance:
+    hostname: eureka1.com
+    prefer-ip-address: true
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://127.0.0.1:2001/eureka/

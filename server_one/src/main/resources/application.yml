@@ -1,0 +1,17 @@
+
+server:
+  port: 3003
+
+spring:
+  application:
+    name: server_one
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: server_one
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:2001/eureka/
