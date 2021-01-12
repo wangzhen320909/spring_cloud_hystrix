@@ -11,7 +11,7 @@
     <groupId>com.spring.cloud</groupId>
     <artifactId>server_one</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>server_one</name>
+    <name>服务提供者</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
