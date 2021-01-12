@@ -11,7 +11,7 @@
     <groupId>com.spring.cloud</groupId>
     <artifactId>hystrix_cinsume</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>hystrix_cinsume</name>
+    <name>服务消费者</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
