@@ -11,7 +11,7 @@
     <groupId>com.spring.cloud</groupId>
     <artifactId>hystrix_eureka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>hystrix_eureka</name>
+    <name>服务注册者</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
